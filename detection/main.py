@@ -5,7 +5,7 @@ from mss import mss #スクリーンショットライブラリ
 import time #時間計測ライブラリ
 
 #YOLOv5のモデル読み込み&自作データセット読み込み
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='detection/best.pt',force_reload = True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt',force_reload = True)
 
 #テキスト色の設定
 red=0,0,255
