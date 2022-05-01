@@ -1,6 +1,6 @@
 # yolo_creeper
 
-## Quick Star
+## Quick Start
 
 ```
 cd yolov5_creeper
