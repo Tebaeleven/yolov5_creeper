@@ -5,6 +5,7 @@
 ```
 cd yolov5_creeper
 git clone clone https://github.com/ultralytics/yolov5
+python -m venv venv_yolo
 pip install -r requirements.txt
 ```
 
