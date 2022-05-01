@@ -6,8 +6,13 @@
 cd yolov5_creeper
 git clone https://github.com/ultralytics/yolov5
 python -m venv venv_yolo
-mac: source venv_yolo/bin/activate
-windows : .\venv_yolo\Scripts\activate
+
+mac: 
+source venv_yolo/bin/activate
+
+windows :
+.\venv_yolo\Scripts\activate
+
 pip install -r requirements.txt
 ```
 
