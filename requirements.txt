@@ -1,6 +1,3 @@
-# pip install -r requirements.txt
-
-# Base ----------------------------------------
 matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python>=4.1.1
@@ -12,15 +9,12 @@ torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.41.0
 
-# Logging -------------------------------------
 tensorboard>=2.4.1
-# wandb
 
-# Plotting ------------------------------------
 pandas>=1.1.4
 seaborn>=0.11.0
 
-thop  # FLOPs computation
+thop
 
 mss
 
